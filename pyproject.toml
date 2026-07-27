@@ -9,17 +9,12 @@ name = "hatch-rust"
 authors = [
     {name = "the hatch-rust authors", email = "t.paine154@gmail.com"},
 ]
-description = "Hatch plugin for Rust"
+description = "Alias for hatch-rs"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 version = "0.1.0"
 requires-python = ">=3.11"
-keywords = [
-    "hatch",
-    "python",
-    "build",
-    "rust",
-]
+keywords = []
 
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -58,8 +53,8 @@ develop = [
 [project.scripts]
 
 [project.urls]
-Repository = "https://github.com/python-project-templates/hatch-rust"
-Homepage = "https://github.com/python-project-templates/hatch-rust"
+Repository = "https://github.com/tkp-aliases/hatch-rust"
+Homepage = "https://github.com/tkp-aliases/hatch-rust"
 
 [tool.bumpversion]
 current_version = "0.1.0"
